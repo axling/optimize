@@ -6,7 +6,9 @@
   {modules, [optimize_sup,
 	     optimize,
 	     optimize_ga,
-	     optimize_hill_climb]},
+	     optimize_sa,
+	     optimize_hill_climb,
+	     optimize_lib]},
   {applications, [
                   kernel,
                   stdlib
