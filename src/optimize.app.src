@@ -1,0 +1,16 @@
+{application, optimize,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {modules, [optimize_sup,
+	     optimize,
+	     optimize_ga,
+	     optimize_hill_climb]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { optimize, []}},
+  {env, []}
+ ]}.
