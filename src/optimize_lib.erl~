@@ -1,8 +1,0 @@
-%%%-------------------------------------------------------------------
-%%% File    : optimize.erl
-%%% Author  :  <ecka@ECKAX>
-%%% Description : General optimizaton algorithms
-%%%
-%%% Created : 30 May 2009 by  <ecka@ECKAX>
-%%%-------------------------------------------------------------------
--module(optimize_lib).
